@@ -1,5 +1,11 @@
 # STUDENT-REGISTRATION-FORM
+
+
+# DESCRIPTION
 This Student-Registration-Form is made by only using html and css.
+
+
+# TABLE OF CONTENTS
 The form should include fields that collect relevant student data. 
 For example: 
 1)Basic Information: Name, Date of Birth, Gender. 
