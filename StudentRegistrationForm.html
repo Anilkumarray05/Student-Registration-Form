@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fcf9f9;
+        }
+        .form-container {
+            width: 60%;
+            margin: auto;
+            background-color: #c4e1f6;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            background-color: #a8df8e;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input[type="text"], input[type="email"], input[type="password"], textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="radio"] {
+            margin: 0 5px;
+        }
+        .button-group {
+            text-align: center;
+            margin-top: 20px;
+        }
+        input[type="submit"], input[type="reset"] {
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #a8df8e;
+            color: rgb(15, 15, 15);
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <form action="#">
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" name="name" >
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" >
+
+        <label for="mobile">Mobile No:</label>
+        <input type="text" id="mobile" name="mobile" >
+
+        <label for="dob">Date of Birth:</label>
+        <input type="text" id="dob" name="dob" >
+
+        <label for="father name">Father's Name:</label> 
+        <input type="text" id="father name",name="father_name">
+
+        <label for="mother name">Mother's Name:</label> 
+        <input type="text" id="mother name",name="mother_name">
+
+        <div class="gender-container">
+            <label>Gender:</label>
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+        </div>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="4"></textarea>
+
+        <label for="userId">Registration Number:</label>
+        <input type="text" id="userId" name="userId" >
+
+        <label>Select your department:</label>
+        <select name="department" id="">
+            <option value="cse">CSE</option>
+            <option value="mae">ME</option>
+            <option value="ele">ELE</option>
+            <option value="cve">CE</option>
+        </select>
+
+        <div class="button-group">
+            <input type="submit"value="Submit">
+            <input type="reset" value="Clear">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
