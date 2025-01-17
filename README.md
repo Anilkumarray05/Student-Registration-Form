@@ -16,5 +16,5 @@
 
 ### CONTRIBUTIONS
 Contributions are welcome! If you have suggestions for improvements or new features,feel free to open an issue or submit a pull request.
----
+***
 Feel free to adjust any part of this README to better suit your needs!
